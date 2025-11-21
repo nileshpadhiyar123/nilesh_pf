@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Software Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-left">
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <a href="tel:+1234567890" class="contact-number">+1 234-567-890</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-left">
+            <h1><span class="name-bold">Your</span> Name</h1>
+            <h2>Software Developer</h2>
+            <p>Passionate about building scalable software, creating effective solutions, and improving user experiences through clean code.</p>
+            <div class="hero-buttons">
+                <a href="#resume" class="btn-outline">Resume</a>
+                <a href="#projects" class="btn-outline">Projects</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/yourprofile" target="_blank" aria-label="GitHub" class="icon-github"></a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn" class="icon-linkedin"></a>
+                <a href="https://twitter.com/yourprofile" target="_blank" aria-label="Twitter" class="icon-twitter"></a>
+                <a href="mailto:youremail@example.com" aria-label="Email" class="icon-email"></a>
+            </div>
+        </div>
+        <div class="hero-right">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80" alt="Workspace" />
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+            <p>
+                Experienced Software Developer with a strong background in full-stack web development, cloud computing, and API integration. Skilled in JavaScript, React, Node.js, Python, TypeScript, and SQL. Passionate about writing clean, efficient, and maintainable code to solve real-world problems.
+            </p>
+            <h3>Skills Summary</h3>
+            <ul>
+                <li>Full-stack development</li>
+                <li>Cloud infrastructure & DevOps</li>
+                <li>API design and integration</li>
+                <li>Performance optimization</li>
+            </ul>
+        </div>
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=500&q=80" alt="Portrait silhouette" />
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section">
+        <div class="resume-column">
+            <h3>Technical Skills</h3>
+            <div class="skill">
+                <label>JavaScript</label>
+                <input type="range" min="0" max="100" value="85" disabled />
+            </div>
+            <div class="skill">
+                <label>React</label>
+                <input type="range" min="0" max="100" value="80" disabled />
+            </div>
+            <div class="skill">
+                <label>Node.js</label>
+                <input type="range" min="0" max="100" value="75" disabled />
+            </div>
+            <div class="skill">
+                <label>Python</label>
+                <input type="range" min="0" max="100" value="70" disabled />
+            </div>
+            <div class="skill">
+                <label>TypeScript</label>
+                <input type="range" min="0" max="100" value="65" disabled />
+            </div>
+            <div class="skill">
+                <label>SQL</label>
+                <input type="range" min="0" max="100" value="70" disabled />
+            </div>
+        </div>
+
+        <div class="resume-column experience-column">
+            <h3>Experience</h3>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="circle"></div>
+                    <div class="content">
+                        <h4>Senior Software Engineer</h4>
+                        <p>Tech Corp — 2021 to Present</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="circle"></div>
+                    <div class="content">
+                        <h4>Software Developer</h4>
+                        <p>Innovate Solutions — 2018 to 2021</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="circle"></div>
+                    <div class="content">
+                        <h4>Junior Developer</h4>
+                        <p>Startup Hub — 2016 to 2018</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="resume-column">
+            <h3>What I Do</h3>
+            <ul class="what-i-do">
+                <li>Backend Development</li>
+                <li>Frontend Engineering</li>
+                <li>API Development</li>
+                <li>Cloud Integration</li>
+                <li>Performance Optimization</li>
+            </ul>
+
+            <h3>Interests</h3>
+            <div class="interests-icons">
+                <div class="icon" aria-label="Coding">💻</div>
+                <div class="icon" aria-label="Gaming">🎮</div>
+                <div class="icon" aria-label="Tech Gadgets">📱</div>
+                <div class="icon" aria-label="Artificial Intelligence">🤖</div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
