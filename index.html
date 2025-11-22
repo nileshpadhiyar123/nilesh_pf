@@ -1,148 +1,85 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Software Developer Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nilesh | Creative Developer & Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav>
-        <div class="nav-left">
-            <ul class="nav-links">
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#projects">Projects</a></li>
-            </ul>
-        </div>
-        <div class="nav-right">
-            <a href="tel:+1234567890" class="contact-number">+91 7572993309</a>
-        </div>
-    </nav>
+  <!-- Hero Section -->
+  <section class="hero">
+    <canvas id="bg"></canvas>
+    <div class="hero-content">
+      <h1 class="headline">Hi, I’m <span>Nilesh</span> — Creative Developer & Full Stack Developer</h1>
+      <p class="subtext">Building immersive, futuristic web experiences with 3D and animation.</p>
+      <div class="cta-buttons">
+        #contactHire Me</a>
+        #projectsProjects</a>
+      </div>
+    </div>
+    <div class="particles"></div>
+  </section>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero-section">
-        <div class="hero-left">
-            <h1><span class="name-bold">Nilesh </span> Padhiyar</h1>
-            <h2>Software Developer</h2>
-            <p>Passionate about building scalable software, creating effective solutions, and improving user experiences through clean code.</p>
-            <div class="hero-buttons">
-                <a href="#resume" class="btn-outline">Resume</a>
-                <a href="#projects" class="btn-outline">Projects</a>
-            </div>
-            <div class="social-icons">
-                <a href="https://github.com/yourprofile" target="_blank" aria-label="GitHub" class="icon-github"></a>
-                <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn" class="icon-linkedin"></a>
-                <a href="https://twitter.com/yourprofile" target="_blank" aria-label="Twitter" class="icon-twitter"></a>
-                <a href="mailto:youremail@example.com" aria-label="Email" class="icon-email"></a>
-            </div>
-        </div>
-        <div class="hero-right">
-            <img src="/img3.jpg" alt="Workspace" />
-        </div>
-    </section>
+  <!-- About Section -->
+  <section class="about">
+    <div class="about-card glass">
+      <img src="img3.jpg" width="200"  alt="Nilesh" class="profile creative developer passionate about futuristic UI, 3D design, and smooth animations.</p>
+      <div class="skills">
+        <div class="skill neon">HTML</div>
+        <div class="skill neon">CSS</div>
+        <div class="skill neon">JavaScript</div>
+        <div class="skill neon">React</div>
+        <div class="skill neon">Python</div>
+      </div>
+    </div>
+  </section>
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="about-text">
-            <h2>About Me</h2>
-            <p>Email: <a href="mailto:youremail@example.com">nileshpadhiyar48@gmail.com.com</a></p>
-            <p>
-                Experienced Software Developer with a strong background in full-stack web development, cloud computing, and API integration. Skilled in JavaScript, React, Node.js, Python, TypeScript, and SQL. Passionate about writing clean, efficient, and maintainable code to solve real-world problems.
-            </p>
-            <h3>Skills Summary</h3>
-            <ul>
-                <li>Full-stack development</li>
-                <li>Mobile App Development</li>
-                <li>API design and integration</li>
-                <li>Performance optimization</li>
-            </ul>
-        </div>
-        <div class="about-image">
-            <img src="/img1.jpg" alt="Portrait silhouette" />
-        </div>
-    </section>
+  <!-- Projects Section -->
+  <section class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card glass tilt">
+        project1.jpg
+        <h3>Cafe Management System</h3>
+        <p>Short description of the project.</p>
+        #View</a>
+      </div>
+      <!-- Repeat for more projects -->
+    </div>
+  </section>
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume-section">
-        <div class="resume-column">
-            <h3>Technical Skills</h3>
-            <div class="skill">
-                <label>JavaScript</label>
-                <input type="range" min="0" max="100" value="85" disabled />
-            </div>
-            <div class="skill">
-                <label>React</label>
-                <input type="range" min="0" max="100" value="80" disabled />
-            </div>
-            <div class="skill">
-                <label>Node.js</label>
-                <input type="range" min="0" max="100" value="75" disabled />
-            </div>
-            <div class="skill">
-                <label>Python</label>
-                <input type="range" min="0" max="100" value="70" disabled />
-            </div>
-            <div class="skill">
-                <label>TypeScript</label>
-                <input type="range" min="0" max="100" value="65" disabled />
-            </div>
-            <div class="skill">
-                <label>SQL</label>
-                <input type="range" min="0" max="100" value="70" disabled />
-            </div>
-        </div>
+  <!-- Services Section -->
+  <section class="services">
+    <h2>Services</h2>
+    <div class="service-grid">
+      <div class="service-card glass">
+        <i class="icon">💻</i>
+        <h3>Web Development</h3>
+      </div>
+      <div class="service-card glass">
+        <i class="icon">🎨</i>
+        <h3>UI/UX Design</h3>
+      </div>
+    </div>
+  </section>
 
-        <div class="resume-column experience-column">
-            <h3>Experience</h3>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="circle"></div>
-                    <div class="content">
-                        <h4>Senior Software Engineer</h4>
-                        <p>Tech Corp — 2021 to Present</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="circle"></div>
-                    <div class="content">
-                        <h4>Software Developer</h4>
-                        <p>Innovate Solutions — 2018 to 2021</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="circle"></div>
-                    <div class="content">
-                        <h4>Junior Developer</h4>
-                        <p>Startup Hub — 2016 to 2018</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form glass">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn neon">Send</button>
+    </form>
+    <div class="social-icons">
+      #Instagram </a>
+      #GitHub</a>
+    </div>
+  </section>
 
-        <div class="resume-column">
-            <h3>What I Do</h3>
-            <ul class="what-i-do">
-                <li>Backend Development</li>
-                <li>Frontend Engineering</li>
-                <li>API Development</li>
-                <li>Cloud Integration</li>
-                <li>Performance Optimization</li>
-            </ul>
-
-            <h3>Interests</h3>
-            <div class="interests-icons">
-                <div class="icon" aria-label="Coding">💻</div>
-                <div class="icon" aria-label="Gaming">🎮</div>
-                <div class="icon" aria-label="Tech Gadgets">📱</div>
-                <div class="icon" aria-label="Artificial Intelligence">🤖</div>
-            </div>
-        </div>
-    </section>
-
-    <script src="script.js"></script>
+   <script src="script.js"></script></script>
 </body>
 </html>
